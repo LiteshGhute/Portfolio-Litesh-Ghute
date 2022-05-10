@@ -1,2 +1,2 @@
-# resume
-Litesh's resume
+# Portfolio
+Litesh's portfolio
