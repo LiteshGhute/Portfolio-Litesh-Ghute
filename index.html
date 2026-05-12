@@ -460,9 +460,13 @@
         <div class="footer-content">
             <div class="footer-logo">LG</div>
             <p>Designed &amp; Built by <span class="gradient-text">Litesh Ghute</span></p>
-            <p class="footer-sub">© 2024 · All Rights Reserved</p>
+            <p class="footer-sub">© <span id="current-year"></span> · All Rights Reserved</p>
         </div>
     </footer>
+    
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
 
     <script src="script.js"></script>
 </body>
